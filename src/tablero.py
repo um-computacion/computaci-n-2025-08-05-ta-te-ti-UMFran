@@ -23,19 +23,15 @@ class Tablero:
         else:
             raise PosOcupadaException("pos ocupada!")
     
+    def obtener_contenedor(self):
+        return self.contenedor
+
     def esta_lleno(self):
         for fila in self.contenedor:
             for casilla in fila:
                 if casilla == "":
                     return False
         return True
-    
-    def reiniciar_tablero(self):
-        self.contenedor = [
-            ["", "", ""],
-            ["", "", ""],
-            ["", "", ""],
-        ]
     
     def tablero(self):
         for fila in self.contenedor:

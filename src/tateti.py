@@ -1,5 +1,5 @@
-from tablero import Tablero
-from jugador import Jugador
+from src.tablero import Tablero
+from src.jugador import Jugador
 
 class Tateti:
     def __init__(self, jugador1 = Jugador, jugador2 = Jugador): 

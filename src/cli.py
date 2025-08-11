@@ -1,6 +1,6 @@
-from tateti import Tateti
-from jugador import Jugador
-from tablero import PosOcupadaException, CasillaFueradeRango
+from src.tateti import Tateti
+from src.jugador import Jugador
+from src.tablero import PosOcupadaException, CasillaFueradeRango
 
 def main():
     print("Bienvenidos al Tateti")
